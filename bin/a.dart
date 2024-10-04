@@ -9,7 +9,7 @@ String generateRandomString(int length) {
 void main(){
     print("tes");
     var kodeMesin = getKodeMesin("asasas");
-    var kodeTes = 'inpo';
+    late var kodeTes;
     print("ini diprint kapan?");
     print(kodeMesin);
     print(kodeTes);
@@ -20,3 +20,4 @@ String getKodeMesin(tes){
     return "ini juga kode mesin : ${generateRandomString(10)}";
 }
 
+tessss
