@@ -7,17 +7,16 @@ String generateRandomString(int length) {
 }
 
 void main(){
+    late String kodeTes = getKodeMesin(824);
+
     print("tes");
-    var kodeMesin = getKodeMesin("asasas");
-    late var kodeTes;
-    print("ini diprint kapan?");
-    print(kodeMesin);
     print(kodeTes);
+
 }
 
-String getKodeMesin(tes){
-    print("Ini adalah kode Mesin : ${generateRandomString(10)} ${tes}");
+String getKodeMesin(int angkaMesin){
+    print("Ini adalah kode Mesin : ${generateRandomString(10)}${angkaMesin}");
     return "ini juga kode mesin : ${generateRandomString(10)}";
 }
 
-tessss
+
