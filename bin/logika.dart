@@ -23,9 +23,20 @@ void main(){
    print(typeTesAs);
    print(typeTesLagiAs);
 
-   var typeTesIs = typeTes is int;
-   var typeTesIsSatunya = typeTes is! bool;
+   dynamic cekTipeData1 = 100;
+   var typeTesIs1 = cekTipeData1 is int;
+   var typeTesIs2 = cekTipeData1 is String;
 
-   print("Penggunaan as  : $typeTesAs\nPenggunaan is  : $typeTesIs\nPenggunaan is! : $typeTesIsSatunya");
+   print("Apakah Integer? : $typeTesIs1");
+   print("Apakah String?  : $typeTesIs2");
+
+   dynamic cekTipeData2 = 100;
+   var typeTesIs3 = cekTipeData2 is! int;
+   var typeTesIs4 = cekTipeData2 is! String;
+
+   print("Apakah Bukan Integer? : $typeTesIs3");
+   print("Apakah Bukan String?  : $typeTesIs4");
+
+
 }
 
