@@ -37,5 +37,17 @@ void main(){
 
     kodeMesin = true;
     print(kodeMesin);
+    int?              integerNull;
+    String?           stringNull;
+    bool?             boolNull;
+    double?           doubleNull;
+    List<int>?        listNull;
+    Map<String, int>? mapNull;
+    print('''Apakah tipe data int nullable  : $integerNull
+           Apakah tipe data String nullable : $stringNull
+           Apakah tipe data bool nullable   : $boolNull
+           Apakah tipe data double nullable : $doubleNull
+           Apakah tipe data List nullable   : $listNull
+           Apakah tipe data Map nullable    : $mapNull''');
 
 }
